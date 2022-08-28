@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  background: #407088;
+  color: white;
+  font-size: 2em;
+  padding: 10px;
+}
+parent {
+  margin: 50px 0 0 0;
+  background: #f48686;
+}
+p {
+  margin: 25px 0 0 0;
+  background: #f48686;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+}
+/* Using flexbox to avoid margin collapsing */
+.box-container {
+  border: 2px solid #132743;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+.box {
+  width: 100px;
+  height: 130px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pink {
+  background-color: #f48686;
+}
+.gray-blue {
+  background-color: #407088;
+}
